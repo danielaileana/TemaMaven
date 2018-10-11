@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+
     <dependencies>
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -45,6 +46,7 @@
     <properties>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
+        <skipTests>true</skipTests>
     </properties>
     <build>
         <plugins>
